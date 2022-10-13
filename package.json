@@ -1,0 +1,20 @@
+{
+  "name": "qr-component",
+  "version": "1.0.0",
+  "description": "QR-component challenge from frontend mentor.",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "@parcel/transformer-css": {
+    "drafts": {
+      "nesting": true
+    }
+  },
+  "author": "Luis Cedillo",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.7.0",
+    "prettier": "^2.7.1"
+  }
+}
